@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+                petpoja: {
+                    red: '#E03146',
+                    black: '#171717',
+                    gray: '#2A2A2A',
+                    lightgray: '#3A3A3A',
+                }
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
